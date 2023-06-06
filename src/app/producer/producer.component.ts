@@ -7,7 +7,7 @@ import { PublishedEvent } from '../eventmessage';
 @Component({
   selector: 'app-producer',
   templateUrl: './producer.component.html',
-  styleUrls: ['./producer.component.sass']
+  styleUrls: ['./producer.component.css']
 
 })
 export class ProducerComponent {

@@ -5,7 +5,7 @@ import { PublishedEvent } from '../eventmessage';
 @Component({
   selector: 'app-consumer',
   templateUrl: './consumer.component.html',
-  styleUrls: ['./consumer.component.sass']
+  styleUrls: ['./consumer.component.css']
 })
 export class ConsumerComponent implements OnInit {
   receivedDataEvent1: PublishedEvent = new PublishedEvent('','','');

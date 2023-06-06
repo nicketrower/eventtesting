@@ -1,7 +1,7 @@
-import { Eventmessage } from './eventmessage';
+import { PublishedEvent } from './eventmessage';
 
 describe('Eventmessage', () => {
   it('should create an instance', () => {
-    expect(new Eventmessage()).toBeTruthy();
+    expect(new PublishedEvent('','','')).toBeTruthy();
   });
 });
